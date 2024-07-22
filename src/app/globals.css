@@ -3,10 +3,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+/* root */
+:root {
+  --corCinza: #232323;
+  --corDourado: #B2987D; 
+  --fontePoppins: "Poppins", sans-serif;
+  --fonteGreatVibes: "Great Vibes", cursive;
+}
+
 /* Configuração Básica */
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--fontePoppins);
 }
