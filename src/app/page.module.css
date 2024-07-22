@@ -34,7 +34,7 @@
 /* Banner */
 .banner {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background: url(../../public/banner.jpg) no-repeat center center;
     background-size: cover;
 }
