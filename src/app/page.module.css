@@ -1,0 +1,92 @@
+/* Topo */
+.topo_area {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.container_topo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_logo {
+    width: 75px;
+    height: 60px;
+}
+
+.btn_config {
+    padding: 10px 20px;
+    display: flex;
+    border: 2px solid var(--corDourado);
+    border-radius: 25px;
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 40vh;
+    background: url(../../public/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* Conteudo */
+
+.container_base {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    text-align: center;
+}
+
+.container_base p {
+    line-height: 30px;
+}
+
+.letra_especial {
+    font-family: var(--fonteGreatVibes);
+    color: var(--corDourado);
+    font-size: 30px;
+}
+
+/* Mudança tema */
+
+.tema_dark {
+    background-color: var(--corCinza);
+    color: white;
+}
+
+.tema_dark button {
+    background-color: var(--corCinza);
+    color: white;
+}
+
+.tema_dark .img_logo {
+    filter: invert(1) brightness(2) ;
+}
+
+.tema_light {
+    background-color: white;
+    color: black;
+}
+
+.tema_light button {
+    background-color: white;
+    color: black;
+}
