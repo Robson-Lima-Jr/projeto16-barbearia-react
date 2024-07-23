@@ -1,7 +1,8 @@
 /* Topo */
 .topo_area {
     width: 100%;
-    padding: 10px 0px;
+    height: 12vh;
+    display: flex;
 }
 
 .container_topo {
@@ -15,8 +16,8 @@
 }
 
 .img_logo {
-    width: 75px;
-    height: 60px;
+    width: 65px;
+    height: 50px;
 }
 
 .btn_config {
@@ -44,19 +45,20 @@
 .container_base {
     width: 100%;
     max-width: 900px;
-    margin: 30px auto 0px;
+    height: 58vh;
+    margin: 0px auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 
     text-align: center;
 }
 
 .container_base p {
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .letra_especial {
@@ -89,4 +91,23 @@
 .tema_light button {
     background-color: white;
     color: black;
+}
+
+/* media-query */
+@media screen and (max-width: 425px){
+    .container_base {
+        gap: 12px;
+    }
+
+    .container_base h1 {
+        font-size: 22px;
+    }
+
+    .container_base p {
+        font-size: 15px;
+    }
+
+    .container_base .letra_especial {
+        font-size: 25px;
+    }
 }
